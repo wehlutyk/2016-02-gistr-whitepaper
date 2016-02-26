@@ -9,7 +9,7 @@
 <node COLOR="#000000" CREATED="1456249168943" ID="ID_651693234" MODIFIED="1456391047178" TEXT="i.e. don&apos;t fall for qualitative vs. quantitative (Becker)"/>
 </node>
 <node CREATED="1456249226524" ID="ID_1114573665" MODIFIED="1456249228517" TEXT="+">
-<node CREATED="1456248113944" ID="ID_1006514513" MODIFIED="1456249237997" TEXT="Controlled settings"/>
+<node CREATED="1456248113944" ID="ID_1006514513" MODIFIED="1456501881393" TEXT="Controlled setting"/>
 <node CREATED="1456249238777" ID="ID_473969848" MODIFIED="1456249244579" TEXT="Real-life embedded"/>
 <node CREATED="1456249245177" ID="ID_703016215" MODIFIED="1456249255212" TEXT="Massively interactive if wanted"/>
 <node CREATED="1456249260123" ID="ID_517722828" MODIFIED="1456249277433" TEXT="Recruitment flexibility (big pool with filters, pay or not)"/>
@@ -19,8 +19,8 @@
 <node CREATED="1456249303330" ID="ID_583301795" MODIFIED="1456249316243" TEXT="Spam, i.e. no in-person control"/>
 </node>
 <node CREATED="1456248984805" ID="ID_895214069" MODIFIED="1456249022266" TEXT="Published floss code for reuse and reproduceability"/>
+<node CREATED="1456249452017" ID="ID_206660050" MODIFIED="1456391046537" TEXT="An example on the smartphone: daydreaming"/>
 </node>
-<node CREATED="1456249452017" ID="ID_206660050" MODIFIED="1456391046537" POSITION="right" TEXT="An example on the smartphone: daydreaming"/>
 <node CREATED="1456248090393" ID="ID_1772643999" MODIFIED="1456249513968" POSITION="right" TEXT="Complex contagion is the need for real cognition experiments with proper data in complex systems">
 <node CREATED="1456491340347" ID="ID_201085709" MODIFIED="1456491365695" TEXT="interpretation in particular contexts, and the effects at the global scale"/>
 <node CREATED="1456491537435" ID="ID_323018878" MODIFIED="1456491563199" TEXT="The whole Gistr Whitepaper (https://osf.io/k7d38/wiki/Whitepaper/)"/>
@@ -28,5 +28,8 @@
 <node CREATED="1456491689787" ID="ID_952772058" MODIFIED="1456491691951" POSITION="left" TEXT="What"/>
 <node CREATED="1456491692739" ID="ID_1549893101" MODIFIED="1456491694655" POSITION="left" TEXT="So what"/>
 <node CREATED="1456491695091" ID="ID_884770496" MODIFIED="1456491697719" POSITION="left" TEXT="Now what"/>
+<node CREATED="1456499011957" ID="ID_197571851" MODIFIED="1456499014281" POSITION="left" TEXT="Refs">
+<node CREATED="1456499016429" ID="ID_15115123" MODIFIED="1456499022241" TEXT="The Smartphone Manifesto"/>
+</node>
 </node>
 </map>

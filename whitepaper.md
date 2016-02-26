@@ -5,9 +5,35 @@ author: |
 lang: en-GB
 geometry: margin=1.2in
 numbersections: True
+abstract: |
+  Here goes the abstract.
 ---
 
-Introduction
+Introduction {-}
 ============
 
-Yo.
+Web and Smartphone experiments
+==============================
+
+*Quick intro to what it is.*
+
+The need for embedding
+----------------------
+
+Pros and cons
+-------------
+
+An example: the Daydreaming app
+-------------------------------
+
+The Gistr Platform
+==================
+
+What
+----
+
+Criticisms
+----------
+
+Breakout and development
+------------------------
