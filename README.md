@@ -6,7 +6,7 @@ A detailed rationale, description, and development plan for [Gistr](https://gith
 Generate the pdf
 ----------------
 
-You need `pandoc` and `make`.
+You need `pandoc`, `make`, and a decent LaTeX distribution.
 
 To build: `make`, and open `whitepaper.pdf`.
 
