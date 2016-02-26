@@ -6,6 +6,8 @@ A detailed rationale, description, and development plan for [Gistr](https://gith
 Generate the pdf
 ----------------
 
-You need `pandoc`, `make`, and `inotify-tools`
+You need `pandoc` and `make`.
 
-Then: `make`, or `make watch` if you want to rebuild after every edit, and open `whitepaper.pdf`.
+To build: `make`, and open `whitepaper.pdf`.
+
+To build continuously (after every edit): install `inotify-tools` if you don't already have it, then `make watch`.
