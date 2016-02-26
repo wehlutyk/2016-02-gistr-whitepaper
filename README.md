@@ -1,7 +1,7 @@
 Gistr Platform Whitepaper
 =========================
 
-A detailed rationale, description, and development plan for Gistr. Usable as livrable.
+A detailed rationale, description, and development plan for [Gistr](https://gistr.io). Usable as livrable.
 
 Generate the pdf
 ----------------
