@@ -3,10 +3,10 @@
 <node CREATED="1456247759531" ID="ID_108326575" MODIFIED="1456247770896" TEXT="Gistr Platform Whitepaper">
 <node CREATED="1456491732923" ID="ID_804912514" MODIFIED="1456491777071" POSITION="right" TEXT="Web and Smartphone experiements are developping, and this is my part in an interpretation-centered one"/>
 <node CREATED="1456248010254" ID="ID_942748022" MODIFIED="1456249359895" POSITION="right" TEXT="Web and Smartphone experiments">
-<node CREATED="1456248099246" ID="ID_1354378394" MODIFIED="1456249380554" TEXT="Some studies are quantitative with qualitative bits, but let&apos;s go beyond this">
+<node CREATED="1456248099246" ID="ID_1354378394" MODIFIED="1456758425458" TEXT="Some studies are quantitative with qualitative bits, but there&apos;s maybe a third way">
 <node CREATED="1456249060756" ID="ID_1112453568" MODIFIED="1456249442339" TEXT="make real experiments massive"/>
 <node CREATED="1456249145959" ID="ID_1755361531" MODIFIED="1456249403578" TEXT="make massive study precise: asks the question you want, and pick up metadata you want"/>
-<node COLOR="#000000" CREATED="1456249168943" ID="ID_651693234" MODIFIED="1456391047178" TEXT="i.e. don&apos;t fall for qualitative vs. quantitative (Becker)"/>
+<node COLOR="#000000" CREATED="1456249168943" ID="ID_651693234" MODIFIED="1456758412027" TEXT="i.e., maybe, don&apos;t fall for qualitative vs. quantitative (Becker)"/>
 </node>
 <node CREATED="1456249226524" ID="ID_1114573665" MODIFIED="1456249228517" TEXT="+">
 <node CREATED="1456248113944" ID="ID_1006514513" MODIFIED="1456501881393" TEXT="Controlled setting"/>
