@@ -5,6 +5,7 @@ author: |
 lang: en-GB
 geometry: margin=1.2in
 numbersections: True
+bibliography: bibliography.bib
 abstract: |
   Here goes the abstract.
 ---
@@ -37,3 +38,6 @@ Criticisms
 
 Breakout and development
 ------------------------
+
+References
+==========
