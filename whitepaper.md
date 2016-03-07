@@ -57,34 +57,23 @@ An example: the Daydreaming app
 The Gistr Platform
 ==================
 
-Presentation
-------------
+Rationale
+---------
 
-As part of Sébastien's PhD thesis we are studying the transformation of short sentences -- such as quotations from politicians or spokespeople -- as they are propagated through various media.
+As part of my PhD thesis we are studying the transformation of short sentences -- such as quotations from politicians or spokespeople -- as they are propagated through various media.
 Our first study focused on the evolution of such short quotations as they are copied from blog to media outlet to blog.
 Indeed, authors often transform quotations when publishing them online despite the implicit and common-sense injunction to quote people verbatim: a few words disappear, a contraction appears, the quote is cropped, etc. [@simmons_memes_2011; @lauf_analyzing_2013].
 Given this observation, the data collected by @leskovec_meme-tracking_2009 is at first sight a very good candidate to study the evolution of online content as it is transformed by users.
-But the actual study proved challenging for two fundamental reasons:
+But the actual study proved itself much more challenging, for two fundamental reasons:
 
-* *Missing information*: most blog and media outlet authors do not quote their source when they publish a quote online (it's often not relevant to the article), meaning there are no source-destination links in the data collected; this information must instead be inferred anew to be able to study the evolution of content. Equally limiting, there is no access to author information (gender or age, experience in writing, but also psychological factors like memory span).
-* *Missing context*: the lack of access to the context of production and reception of quotes makes it impossible to interpret what a quotation means to its author or its reader [@wittgenstein_philosophical_2010; @briggs_mazes_1992; @cuffari_participatory_2014]. Analysing any kind of semantic evolution is therefore out of reach for passively collected online data.
+* *Missing information*: most blog and media outlet authors do not quote their source when they publish a quote online (it's often not relevant to the article), meaning there are no source-destination links in the data collected; this information must instead be inferred anew to study the evolution of content. There is also no access to author information (gender or age, experience in writing, but also psychological factors like memory span), ruling out any study of individual author effects in transforming the content.
+* *Missing context*: the lack of access to the context of production and reception of quotes makes it impossible to interpret what a quotation means to its author or its reader [@wittgenstein_philosophical_2010; @briggs_mazes_1992; @cuffari_participatory_2014]. Analysing any kind of semantic evolution is therefore out of reach for this kind of passively collected online data (Lerique 2016, to be published).
 
-The Gistr platform emerged from a concern to address these two problems.
-The general goal is therefore the study of interpretation and sense-making of short sentences in particular contexts, and the effects the accumulation of these have at the global scale.
-How (linguistic) information is interpreted, that is, made sense of by people.
+The Gistr platform^[As explained further down, we aim for a series of experiments, based on the same paradigm, and gradually introducing complexity to the problem. Hence the term *platform*.] emerged from a concern to address these two problems.
+The general aim for this project is the study of interpretation and sense-making of short sentences in particular contexts, and the question of how interpretation and sense-making have global scale effects when accumulated and iterated.
 
-In short: **"What sense is made of what when, and what follows from that at large scale."**
-
-Interpretation is a kind of attention/perception, that is exploration of an environment.
-It's a process of exploring information (through educated attention) and putting it to use in the current task.
-This involves many different processing levels, and is studied by several different disciplines.
-Here are a few examples of what is involved:
-
-* Interactions: relating to people involves several tasks; e.g. trying to look good to someone (based on what you believe that person thinks) is a task that will influence how you perceive what they say. For social anthropologists, meaning is a shared property that emerges from the interaction.
-* Cognitive biases in general: for some tasks we often make recurrent and predictable mistakes or transformations (e.g. word frequency effect \[[Yonelinas, 2002](http://www.sciencedirect.com/science/article/pii/S0749596X02928640)\], cognitive dissonance \[[Festinger, 1962](http://books.google.fr/books?id=voeQ-8CASacC)\], risk perception \[[Kahneman & Tversky, 1996](http://psy2.ucsd.edu/~mckenzie/KahnemanTversky1996PsychRev.pdf)\] \[TODO: read\], and any number of [cognitive-](https://en.wikipedia.org/wiki/List_of_cognitive_biases), [memory-](https://en.wikipedia.org/wiki/List_of_memory_biases), or [heuristics-induced](https://en.wikipedia.org/wiki/Heuristic#Theorized_psychological_heuristics) biases), because of low-level processes involved in the task.
-* Metaphors: reasoning and idea-association are closely related to basic metaphors that pervade everyday language (like 'more' is 'up', 'later' is 'forward', etc.).
-
-### State of the Art
+State of the Art
+----------------
 
 Up to now Epidemiology of Representations has focused on cultural bodily practices with long intergenerational lifecycles like
 
@@ -100,12 +89,26 @@ Recently, practices with short intragenerational lifecycles like
 * music \[[MacCallum, Mauch, Burt, & Leroi, 2012](http://www.pnas.org/content/109/30/12081.short)\], \[TODO: read\]
 * risk perception (abstracting away from individual variation) \[Moussaïd, Brighton, & Gaissmaier, 2015 - in press\], \[TODO: read\]
 
+\[TODO: add iterated learning tasks like Kirby et al.\]
+
 that have less to do with changes in bodily practice, and more with interpretation, have started to be studied.
 I aim to bring a new case in this area of short lifecycle opinion dynamics by studying the semantic evolution of short sentences and short stories in interpretation chains.
 What change takes place here is mainly due to interpretation and the reconstructional component of memory which, as mentioned above, involves many levels and is influenced by many factors.
 Therefore, after starting at the macro scale where individual variation and context details are abstracted out, I also aim to gradually move towards the meso scale, integrating more contextual and personal details and factors as I go along.
 
 Finally, even if it's not my main target, this study should also be of interest to the big data/Twitter/Facebook studies community, where well-controlled data is hard to come by (if you don't work for Facebook).
+
+General approach
+----------------
+
+Now interpretation is a kind of attention/perception, that is exploration of an environment.
+It's a process of exploring information (through educated attention) and putting it to use in the current task.
+This involves many different processing levels, and is studied by several different disciplines.
+Here are a few examples of what is involved:
+
+* Interactions: relating to people involves several tasks; e.g. trying to look good to someone (based on what you believe that person thinks) is a task that will influence how you perceive what they say. For social anthropologists, meaning is a shared property that emerges from the interaction.
+* Cognitive biases in general: for some tasks we often make recurrent and predictable mistakes or transformations (e.g. word frequency effect \[[Yonelinas, 2002](http://www.sciencedirect.com/science/article/pii/S0749596X02928640)\], cognitive dissonance \[[Festinger, 1962](http://books.google.fr/books?id=voeQ-8CASacC)\], risk perception \[[Kahneman & Tversky, 1996](http://psy2.ucsd.edu/~mckenzie/KahnemanTversky1996PsychRev.pdf)\] \[TODO: read\], and any number of [cognitive-](https://en.wikipedia.org/wiki/List_of_cognitive_biases), [memory-](https://en.wikipedia.org/wiki/List_of_memory_biases), or [heuristics-induced](https://en.wikipedia.org/wiki/Heuristic#Theorized_psychological_heuristics) biases), because of low-level processes involved in the task.
+* Metaphors: reasoning and idea-association are closely related to basic metaphors that pervade everyday language (like 'more' is 'up', 'later' is 'forward', etc.).
 
 Criticisms
 ----------
