@@ -57,8 +57,17 @@ An example: the Daydreaming app
 The Gistr Platform
 ==================
 
-What
-----
+Presentation
+------------
+
+As part of Sébastien's PhD thesis we are studying the transformation of short sentences -- such as quotations from politicians or spokespeople -- as they are propagated through various media.
+Our first study focused on the evolution of such short quotations as they are copied from blog to media outlet to blog.
+Indeed, authors often transform quotations when publishing them online despite the implicit and common-sense injunction to quote people verbatim: a few words disappear, a contraction appears, the quote is cropped, etc. [@simmons_memes_2011; @lauf_analyzing_2013].
+Given this observation, the data collected by @leskovec_meme-tracking_2009 is at first sight a very good candidate to study the evolution of online content as it is transformed by users.
+But the actual study proved challenging for two fundamental reasons:
+
+* *Missing information*: most blog and media outlet authors do not quote their source when they publish a quote online (it's often not relevant to the article), meaning there are no source-destination links in the data collected; this information must instead be inferred anew to be able to study the evolution of content. Equally limiting, there is no access to author information (gender or age, experience in writing, but also psychological factors like memory span).
+* *Missing context*: the lack of access to the context of production and reception of quotes makes it impossible to interpret what a quotation means to its author or its reader \[ref to meaning is context and use\]. Analysing any kind of semantic evolution is therefore out of reach.
 
 **General area:** the study of interpretation in particular contexts, and the effects it has at the global scale.
 How (linguistic) information is interpreted, that is, made sense of by people.
@@ -100,11 +109,13 @@ Finally, even if it's not my main target, this study should also be of interest 
 Criticisms
 ----------
 
-Other disciplines work on this subject with different focuses and valuable criticisms. The three areas I roughly identify are:
+Other disciplines work on this subject with different focuses and valuable criticisms.
+The three areas I roughly identify are:
 
 ### Linguistics
 
-I'm not a linguist, and this study is obviously affected by linguistics-level effects that I don't know about. I plan to address that issue, in a limited way, by augmenting my basic knowledge of linguistic effects by going to the LOT Summer School 2015, presenting my stuff at [Martin Hilpert's discussion group "Issues in language variation and change"](http://www.lotschool.nl/files/schools/2015_Summerschool_Leuven/course%20descriptions/RDG%20Martin%20Hilpert.php), and asking around as much as I can.
+I'm not a linguist, and this study is obviously affected by linguistics-level effects that I don't know about.
+I plan to address that issue, in a limited way, by augmenting my basic knowledge of linguistic effects by going to the LOT Summer School 2015, presenting my stuff at [Martin Hilpert's discussion group "Issues in language variation and change"](http://www.lotschool.nl/files/schools/2015_Summerschool_Leuven/course%20descriptions/RDG%20Martin%20Hilpert.php), and asking around as much as I can.
 
 ### Situated/embodied/extended cognition
 
@@ -119,7 +130,9 @@ This line of thinking has greatly improved the way cognitive science analyzes co
 
 Adopting much of the "embodied" position w.r.t. representations, social anthropologist Tim Ingold criticizes Sperber's approach to cultural evolution on a number of points which can be summed up as follows:
 
-* Culture is not something that is *transmitted*, but something that one *grows into* ([Ingold, 1997](http://lchc.ucsd.edu/MCA/Paper/ingold/ingold1.htm)). Hence the driving force of cultural change is not how representations are transmitted, but how attention is educated. As such, cultural and natural evolution are one and the same process, and separating them into one taking place before the other ([Ingold, 2004](http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8676.2004.tb00102.x/abstract)) only hinders the analysis ("Cultural differences, in short, are not added on to a substrate of biological universals; rather they are themselves biological").
+* Culture is not something that is *transmitted*, but something that one *grows into* ([Ingold, 1997](http://lchc.ucsd.edu/MCA/Paper/ingold/ingold1.htm)).
+Hence the driving force of cultural change is not how representations are transmitted, but how attention is educated.
+As such, cultural and natural evolution are one and the same process, and separating them into one taking place before the other ([Ingold, 2004](http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8676.2004.tb00102.x/abstract)) only hinders the analysis ("Cultural differences, in short, are not added on to a substrate of biological universals; rather they are themselves biological").
 * Meaning (and therefore interpretation) is not a property of representations, it is what emerges from the individual's history with a particular representation; interpretation is how a piece of information is put to use in one's life ([Briggs, 2006](http://onlinelibrary.wiley.com/doi/10.1002/cd.23219925804/abstract)).
 * An alternative to studying culture as an evolutionary process parallel to genetic evolution is to consider the whole ecosystem as a field of developmental systems ([Ingold, 1998](http://www.jstor.org/stable/25842543)).
 
@@ -163,7 +176,8 @@ This will be:
 
 ### Development
 
-The experiment presents itself as an online [Game With a Purpose](https://en.wikipedia.org/wiki/GWAP) where people can freely register and participate. The gamification aspects are likely to come later, once the experimental aspects are stable and implemented.
+The experiment presents itself as an online [Game With a Purpose](https://en.wikipedia.org/wiki/GWAP) where people can freely register and participate.
+The gamification aspects are likely to come later, once the experimental aspects are stable and implemented.
 This lets us start experimenting on paid ([Prolific Academic](https://prolificacademic.co.uk/)) or volunteer ([Crowd Crafting](http://crowdcrafting.org/)) platforms, and later open up to platform-free participation.
 
 Technically, it's a web application that runs in the browser and can also be packaged as a native app for Android and FirefoxOS.
