@@ -67,9 +67,10 @@ Given this observation, the data collected by @leskovec_meme-tracking_2009 is at
 But the actual study proved challenging for two fundamental reasons:
 
 * *Missing information*: most blog and media outlet authors do not quote their source when they publish a quote online (it's often not relevant to the article), meaning there are no source-destination links in the data collected; this information must instead be inferred anew to be able to study the evolution of content. Equally limiting, there is no access to author information (gender or age, experience in writing, but also psychological factors like memory span).
-* *Missing context*: the lack of access to the context of production and reception of quotes makes it impossible to interpret what a quotation means to its author or its reader \[ref to meaning is context and use\]. Analysing any kind of semantic evolution is therefore out of reach.
+* *Missing context*: the lack of access to the context of production and reception of quotes makes it impossible to interpret what a quotation means to its author or its reader [@wittgenstein_philosophical_2010; @briggs_mazes_1992; @cuffari_participatory_2014]. Analysing any kind of semantic evolution is therefore out of reach for passively collected online data.
 
-**General area:** the study of interpretation in particular contexts, and the effects it has at the global scale.
+The Gistr platform emerged from a concern to address these two problems.
+The general goal is therefore the study of interpretation and sense-making of short sentences in particular contexts, and the effects the accumulation of these have at the global scale.
 How (linguistic) information is interpreted, that is, made sense of by people.
 
 In short: **"What sense is made of what when, and what follows from that at large scale."**
