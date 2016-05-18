@@ -52,6 +52,17 @@ Embedding experiments in the everyday life of subjects gives access to dimension
 through the use of smartphones, an experiment designer can trigger interactions with subjects (for instance asking questions) at any moment of the day, or have measures running while subjects are offline (using the ever-increasing number of sensors present on the devices), both of which are impossible with digital traces.
 Above all, embedding an experiment means getting greater access to context, which opens the possibility of understanding phenomena the way they are meant in the lives of subjects, and not only in the way they are construed by the experiment designer.
 
+*Daydreaming* is an example experiment developed as a smartphone application with Vincent Adam, Mikaël Bastian, Jérôme Sackur, and Gislain Delaire, that took advantage of this embedding.
+The experiment, focused on our awareness of daily mind-wandering, would probe subjects during a month at random moments of the day to ask them if they were mind-wandering (and, if so, what were the qualities of their thoughts).
+^[See \url{http://daydreaming-the-app.net/} for more details.]
+While our team spent over a year developing the application, it allowed asking questions related to ecological situations which cannot exist in laboratory or passive collection studies.
+\autoref{f:dd-question} shows a sample question asked to the subjects, and \autoref{f:dd-results} shows an example of the results produced at the end of the experiment (this particular screen shows the results for one subject; seeing their own results was part of the reward for subjects participating in the study).
+
+![Example questionnaire in the Daydreaming app \label{f:dd-question}](images/daydreaming-questionnaire.png){width=35%}
+
+![Results on weekly mind-wandering rhythms from the Daydreaming app \label{f:dd-results}](images/daydreaming-results-rhythms.png){width=35%}
+
+
 Pros and Cons
 -------------
 
@@ -93,11 +104,6 @@ while recruiting a few dozen or even a few hundred subjects is generally cheaper
 ^[Global competition on online platforms like Prolific Academic drive subject payments down.]
 and can be very easy for fast prototyping and pilots, recruitment cost rises linearly with the number of subjects and the time they spend on the experiment, unless a different strategy is used.
 Turning an experiment into a playful application or an application useful to the user involves its own set of skills, can prove challenging, and must be factored into the development cost.
-
-An example: the Daydreaming app
--------------------------------
-
-*Successful app that took us a while to develop, but lets you answer questions that cannot exist in the lab.*
 
 
 The Gistr Platform
