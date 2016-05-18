@@ -14,39 +14,85 @@ abstract: |
 Introduction {-}
 ============
 
+Studies of online interactions that are part of the "born-digital" sub-field of Digital Humanities usually focus on activities for which online records are readily available (mostly, blogs and large online social networks with varying degrees of access to the data).
+In stark contrast to "in vitro" laboratory experiments, this "in vivo" approach studies human interactions in an ecological environment by analysing their digital traces.
+^[
+I use the terms *in vivo* and *in vitro* in analogy to their meaning in biology.
+As explained in the main text, *in vivo* refers to the study of human interactions in their ecological environment, be it through direct observation or through digital traces of those interactions.
+*In vitro* refers to the study in conditions defined by the researcher, usually in a laboratory experiment.
+]
+
+Yet despite the large amounts of data and computing power that this quantitative observation approach takes advantage of, it remains very difficult to ask questions linking cognitive and social levels of human interaction, and the revolution that was expected to happen in social science has yet to materialise.
+More precisely: the question, both theoretical and experimental, of how to study and link together cognition and what social science defines as *social* proper, is still very much open.
+
+Since better tools afford better questions and better theory, we focus here on the experimental side of this problem which is in fact quite simple:
+online interaction studies are based on digital traces, but most researchers have no control over what data is recorded in those traces, or over the way the interaction is framed and defined by the technical system that mediates it.
+As a result, only a very specific class of questions can be asked by online interaction studies: those that use only the available data and focus on the existing interaction framing, excluding any question for which some information is missing and not inferable or available elsewhere, as well as questions that need to tinker with the interaction framing.
+The latter is a very high barrier to asking questions that link the cognitive and social levels of human interaction.
+
+The purpose of this document is to briefly introduce the approach of Web and Smartphone experiments -- a promising method for human interaction experiments -- and the trade-offs it makes, and Gistr, the Web experiment I am currently developing as part of my PhD thesis to overcome the shortcomings of our previous study on sentence transformation in the blogosphere.
+
 
 Web and Smartphone experiments
 ==============================
 
-*As an aside to online data collection on social networks and blogs, making experiments using the web and smartphones is really promising*
+Complementary to studies using existing digital traces, Web and Smartphone experiments strike a different balance in the trade-offs of experimental work and seem very promising in addressing the problems outlined above.
+
+Indeed, smartphones and browsers (both on desktop and mobile) have evolved into powerful, ubiquitous application environments for which one can relatively easily develop any kind of experiment involving text, graphics, and human interactions.
+At the cost of higher engineering and recruitment efforts, this approach gives the experiment designer full control over what data is collected and the way interactions are framed.
+Given the omnipresent nature of smartphones, such experiments can also be deeply embedded in everyday life which, as I explain below, opens even more possibilities for questions on social interaction.
 
 The need for embedding
 ----------------------
 
-*Some studies are quantitative, but lack a fine-grained view of what's a work.*
+Any quantitative study relies on abstracting out details of particular cases by reducing (most often averaging) values in each dimension to a few indicators.
+Being able to render a precise view of the studied phenomenon then depends on being able to determine which are the right dimensions to describe it, and having access to them.
 
-*Embedding means getting access to the way things are meant in the lives of subjects, it means getting access to context. Pick up all the metadata you want.*
+Embedding experiments in the everyday life of subjects gives access to dimensions that can be otherwise unavailable:
+through the use of smartphones, an experiment designer can trigger interactions with subjects (for instance asking questions) at any moment of the day, or have measures running while subjects are offline (using the ever-increasing number of sensors present on the devices), both of which are impossible with digital traces.
+Above all, embedding an experiment means getting greater access to context, which opens the possibility of understanding phenomena the way they are meant in the lives of subjects, and not only in the way they are construed by the experiment designer.
 
-*It lets you try avoid the quantitative vs. qualitative problem described by Becker.*
-
-Pros and cons
+Pros and Cons
 -------------
 
-### Pros
+Experiments in the browser and on smartphones make specific trade-offs which differ from most other methods. The most important points are as follows.
 
-*Just like controlled lab experiments, the general setting and framing of such a study is controlled.*
+**Pros**
 
-*As explained above, it's real-life embedded.*
+* *Control*:
+similar to laboratory experiments, complex designs are possible, and all the interactions the subjects can be involved in are defined by the experiment designer.
+This includes for instance the way in which the experiment is framed (e.g. as a game or a self-improvement aid, aside from being a scientific study) and, more importantly, the ways in which subjects can interact with each other through the experiment.
+* *Embedding*:
+as explained above, smartphone-based experiments allow for real-life embedding:
+the experiment designer can choose when and how interactions with the experiment and between subjects take place, and measure any number of variables the device gives them access to (geolocation, time, phone agitation through its accelerometers, general noise level, etc.), virtually at any moment.
+* *Scale*:
+if needed, the technical platform can relatively easily scale the number of subjects to several tens of thousands.
+This also applies to interactions between subjects, which can directly involve many people, be it at the same time or (for instance) in chains.
+* *Flexible recruitment*:
+subject recruitment, while also a challenge (see *cons* below), is very flexible:
+services like Prolific Academic
+^[\url{https://www.prolific.ac/}]
+let experiment designers recruit at reasonable costs in pools of tens of thousands of subjects with fine-grained demographic filters. Aiming for wider audiences can be done by offering rewards, framing the experiment as a self-improvement application, or turning it into a game.
 
-*If needed, it can be massively interactive: any number of people interacting at the same time.*
+**Cons**
 
-*Recruitment is super flexible: big pool with filters, pay them or make it gamified.*
-
-### Cons
-
-*Big engineering efforts, new techniques and technologies (async, user management, ...).*
-
-*No face-to-face control, so need for real anti-spam pressures.*
+* *Technical challenge*:
+developing such an experiment involves a substantial amount of engineering and makes use of several technologies most researchers, even technical, are not familiar with.
+While some all-in-one kits exist,
+^[See e.g. \url{http://funf.org/} and \url{http://www.epicollect.net/}.]
+creating an experiment that meets one's research often requires learning average skills in most of the various technologies at play:
+a native or cross-platform smartphone environment, Web application development, backend server programming, and some server administration skills.
+Most importantly, the paradigms and problems encountered are often new to researchers: most programming is asynchronous due to network communication or user interface, and technicalities such as user management or email validation can grow into real engineering challenges.
+* *Spam-control*:
+subjects are not constrained or encouraged by the face-to-face interaction of a laboratory experiment, neither are they (in most experiments) in the course of an interaction with friends where is it natural to them to not write spam, as can be the case in digital traces.
+Participants must have an incentive to perform the experiment's tasks well.
+If spam is naturally isolated in the experiment's design, one can for instance filter it once the data is collected and make payment depend on it prevalence.
+But if spam propagates in the experiment, real anti-spam pressures and motivations need to be factored into the whole design.
+* *Recruitment cost*:
+while recruiting a few dozen or even a few hundred subjects is generally cheaper (not counting the cost of developing the experiment) than the equivalent for a laboratory experiment,
+^[Global competition on online platforms like Prolific Academic drive subject payments down.]
+and can be very easy for fast prototyping and pilots, recruitment cost rises linearly with the number of subjects and the time they spend on the experiment, unless a different strategy is used.
+Turning an experiment into a playful application or an application useful to the user involves its own set of skills, can prove challenging, and must be factored into the development cost.
 
 An example: the Daydreaming app
 -------------------------------
@@ -75,6 +121,8 @@ The general aim for this project is the study of interpretation and sense-making
 State of the Art
 ----------------
 
+\[TODO: Primer on Epidemiology of Representations\]
+
 Up to now Epidemiology of Representations has focused on cultural bodily practices with long intergenerational lifecycles like
 
 * smoking \[[Claidière & Sperber, 2007](http://booksandjournals.brillonline.com/content/journals/10.1163/156853707x171829)\],
@@ -90,6 +138,8 @@ Recently, practices with short intragenerational lifecycles like
 * risk perception (abstracting away from individual variation) \[Moussaïd, Brighton, & Gaissmaier, 2015 - in press\], \[TODO: read\]
 
 \[TODO: add iterated learning tasks like Kirby et al.\]
+
+\[TODO: revise ambitions and phrasing ('I')\]
 
 that have less to do with changes in bodily practice, and more with interpretation, have started to be studied.
 I aim to bring a new case in this area of short lifecycle opinion dynamics by studying the semantic evolution of short sentences and short stories in interpretation chains.
